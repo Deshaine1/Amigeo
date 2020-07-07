@@ -1,67 +1,132 @@
- <!DOCTYPE html>
-    <html lang="en">
-        <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Amigeo</title>
-        <style>@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');</style>
-        <script src="https://use.fontawesome.com/776c5f09fc.js"></script>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" >
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
-    <link rel="stylesheet" href="assets/css/style.css">
-    </head>
-    <body>  
-        <div id="hero-image"> 
-            <header>
-                <nav>
-                    <ul id="menu">
-                        <li><a class="active">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </nav>
-            </header>
-            <div class="header-content">
-                <div class="logo">
-                    <h1>Amigeo</h1>
-                </div>
-                <div class="slogan centered-parent"> 
-                    <h2 class="centered-child">Art That's Outta This World!</h2>
-                </div>
-                <div class="cover-text centered-parent">
-                    <h3 class="centered-child">Artificial Inteligence. Cosmology. Astronomy. Astro-Physics.</h3>
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Amigeo</title>
+      <style>@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');</style>
+      <script src="https://use.fontawesome.com/776c5f09fc.js"></script>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" >
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+      <link rel="stylesheet" href="assets/css/style.css">
+   </head>
+   <body>
+      <div id="hero-image">
+         <header>
+            <!-- <nav>
+               <ul id="menu">
+                   <li><a class="active">Home</a></li>
+                   <li><a href="about.html">About</a></li>
+                   <li><a href="gallery.html">Gallery</a></li>
+                   <li><a href="contact.html">Contact</a></li>
+               </ul>
+               </nav> -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                     <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                     </li>
+                  </ul>
+               </div>
+            </nav>
+         </header>
+         <section id="jumbotron-section">
+            <div class="container text-center mt-5">
+               <div class="jumbotron rounded-transparent">
+                  <h1 class="display-4">Amigeo</h1>
+                  <br>
+                  <h2 class="display-5">Art That's Outta This World!</h2>
+                  <hr class="my-4">
+                  <button type="button" class="btn btn-warning">Artificial Inteligence</button>
+                  <button type="button" class="btn btn-secondary">Cosmology</button>
+                  <button type="button" class="btn btn-dark">Astronomy</button>
+                  <button type="button" class="btn btn-info">Astro-Physics</button>
+               </div>
+            </div>
+            <!-- <div class="header-content">
+               <div class="logo">
+                   <h1>Amigeo</h1>
+               </div>
+               <div class="slogan centered-parent"> 
+                   <h2 class="h2-color-scheme centered-child">Art That's Outta This World!</h2>
+               </div>
+               <div class="cover-text centered-parent">
+                   <h3 class="centered-child">Artificial Inteligence. Cosmology. Astronomy. Astro-Physics.</h3>
+               </div>
+               </div> -->
+         </section>
+      </div>
+      <!-- <footer class="container-fluid footer-container">
+         <ul class="social-network">
+             <li>
+                 <a href="https:www.facebook.com" target="_blank">
+                 <i class="fab fa-facebook-square">
+                     <span>Facebook</span>
+                 </i>
+             </a>
+             </li>
+             <li>
+                 <a href="https:www.twitter.com" target="_blank">
+                 <i class="fab fa-twitter">
+                     <span>Twitter</span>
+                 </i>
+             </a>
+             </li>
+             <li>
+                 <a href="https:www.instagram.com" target="_blank">
+                 <i class="fab fa-instagram">
+                     <span>Instagram</span>
+                 </i>
+             </a>
+             </li>
+         </ul>
+         </footer>  -->
+      <section style="background-color: #343a40;">
+        <footer class="container">
+            <div class="row align-items-center pt-3">
+                <div class="col">
+                <ul class="social-network">
+                    <li>
+                        <a href="https:www.facebook.com" target="_blank">
+                        <i class="fab fa-facebook-square">
+                        <span>Facebook</span>
+                        </i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https:www.twitter.com" target="_blank">
+                        <i class="fab fa-twitter">
+                        <span>Twitter</span>
+                        </i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https:www.instagram.com" target="_blank">
+                        <i class="fab fa-instagram">
+                        <span>Instagram</span>
+                        </i>
+                        </a>
+                    </li>
+                </ul>
                 </div>
             </div>
-            
-        </div>
-        
-            <footer class="container-fluid footer-container">
-                    <ul class="social-network">
-                        <li>
-                            <a href="https:www.facebook.com" target="_blank">
-                            <i class="fab fa-facebook-square">
-                                <span>Facebook</span>
-                            </i>
-                        </a>
-                        </li>
-                        <li>
-                            <a href="https:www.twitter.com" target="_blank">
-                            <i class="fab fa-twitter">
-                                <span>Twitter</span>
-                            </i>
-                        </a>
-                        </li>
-                        <li>
-                            <a href="https:www.instagram.com" target="_blank">
-                            <i class="fab fa-instagram">
-                                <span>Instagram</span>
-                            </i>
-                        </a>
-                        </li>
-                    </ul>
-                   
-                  
-                </footer> 
-            </body>
-        </html>
+        </footer>
+      </section>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+   </body>
+</html>
