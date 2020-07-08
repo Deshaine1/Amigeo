@@ -1,114 +1,118 @@
 <!DOCTYPE html>
-    <html lang="en">
-        <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Amigeo</title>
-        <style>@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');</style>
-        <script src="https://use.fontawesome.com/776c5f09fc.js"></script>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" >
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
-    <link rel="stylesheet" href="assets/css/style.css">
-    </head>
-<body>
-    <header>
-                    <!-- <nav class="nav-menu">
-                    <ul id="menu" class="about-menu">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="gallery.html">Gallery</a></li>
-                            <li><a class="active">Contact</a></li>
-                    </ul>
-                    </nav> -->
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="gallery.html">Gallery</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="contact.html">Contact</a>
-                    </li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-    <div class="container-fluid container-contact">
-                <div class="container contact-container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2 m-auto">
-                      <div class="contact-form">
-				<h1>Get in Touch!</h1>
-				<form action="/examples/actions/confirmation.php" method="post">
-					<div class="row">
-						<div class="col-sm-6">
-							<div class="form-group">
-								<label for="inputName">Name</label>
-								<input type="text" class="form-control" id="inputName" required>
-							</div>
-						</div>
-						<div class="col-sm-6">
-							<div class="form-group">
-								<label for="inputEmail">Email</label>
-								<input type="email" class="form-control" id="inputEmail" required>
-							</div>
-						</div>
-					</div>            
-					<div class="form-group">
-						<label for="inputSubject">Subject</label>
-						<input type="text" class="form-control" id="inputSubject" required>
-					</div>
-					<div class="form-group">
-						<label for="inputMessage">Message</label>
-						<textarea class="form-control" id="inputMessage" rows="5" required></textarea>
-					</div>
-					<div class="text-center">
-						<button type="submit" class="btn btn-primary"><i class="fa fa-rocket"></i> Send</button>
-					</div>            
-				</form>
-			</div>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Amigeo</title>
+      <style>@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');</style>
+      <script src="https://use.fontawesome.com/776c5f09fc.js"></script>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" >
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+      <link rel="stylesheet" href="assets/css/style.css">
+   </head>
+   <body>
+      <header>
+         <!-- <nav class="nav-menu">
+            <ul id="menu" class="about-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a class="active">Contact</a></li>
+            </ul>
+            </nav> -->
+         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav">
+                  <li class="nav-item">
+                     <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="gallery.html">Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link active" href="contact.html">Contact</a>
+                  </li>
+               </ul>
             </div>
-		</div>
-	</div>
-</div> 
-     <footer class="container-fluid footer-container">
-                    <ul class="social-network">
+         </nav>
+      </header>
+      <section id="contact-us-section">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-8 col-md-offset-2 m-auto">
+                  <div class="contact-form">
+                     <h1>Get in Touch!</h1>
+                     <form action="." method="post">
+                        <div class="row">
+                           <div class="col-sm-6">
+                              <div class="form-group">
+                                 <label for="inputName">Name</label>
+                                 <input type="text" class="form-control" id="inputName" required>
+                              </div>
+                           </div>
+                           <div class="col-sm-6">
+                              <div class="form-group">
+                                 <label for="inputEmail">Email</label>
+                                 <input type="email" class="form-control" id="inputEmail" required>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="form-group">
+                           <label for="inputSubject">Subject</label>
+                           <input type="text" class="form-control" id="inputSubject" required>
+                        </div>
+                        <div class="form-group">
+                           <label for="inputMessage">Message</label>
+                           <textarea class="form-control" id="inputMessage" rows="5" required></textarea>
+                        </div>
+                        <div class="text-center">
+                           <button id="contact-us-send-button" type="submit" class="btn btn-dark"><i class="fa fa-rocket"></i> Send</button>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+        </section>
+      <section style="background-color: #343a40;">
+        <footer class="container">
+            <div class="row align-items-center pt-3">
+                <div class="col">
+                <ul class="social-network">
                     <li>
-                            <a href="https:www.facebook.com" target="_blank">
-                            <i class="fab fa-facebook-square">
-                                <span>Facebook</span>
-                            </i>
+                        <a href="https:www.facebook.com" target="_blank">
+                        <i class="fab fa-facebook-square">
+                        <span>Facebook</span>
+                        </i>
                         </a>
-                        </li>
-                        <li>
-                            <a href="https:www.twitter.com" target="_blank">
-                            <i class="fab fa-twitter">
-                                <span>Twitter</span>
-                            </i>
+                    </li>
+                    <li>
+                        <a href="https:www.twitter.com" target="_blank">
+                        <i class="fab fa-twitter">
+                        <span>Twitter</span>
+                        </i>
                         </a>
-                        </li>
-                        <li>
-                            <a href="https:www.instagram.com" target="_blank">
-                            <i class="fab fa-instagram">
-                                <span>Instagram</span>
-                            </i>
+                    </li>
+                    <li>
+                        <a href="https:www.instagram.com" target="_blank">
+                        <i class="fab fa-instagram">
+                        <span>Instagram</span>
+                        </i>
                         </a>
-                        </li>
-                    </ul>
-                </footer> 
-                <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-                <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-            
-     </body>
-     
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </footer>
+      </section>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+   </body>
 </html>
