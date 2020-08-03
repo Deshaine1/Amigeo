@@ -1,193 +1,215 @@
 body {
-  font-family: "Orbitron", sans-serif;
+	font-family: "Orbitron", sans-serif;
 }
 
 .active {
-  border-bottom: 2px solid rgb(39, 161, 184);
+	border-bottom: 2px solid rgb(39, 161, 184);
 }
 
-.social-network i{
-    font-size: 120%;
-    margin: 1%;
-    color: black;
+.social-network i {
+	font-size: 120%;
+	margin: 1%;
+	color: black;
 }
 
-.social-network span{
-    font-family: "Orbitron", sans-serif;
+.social-network span {
+	font-family: "Orbitron", sans-serif;
 }
 
-.social-network a:hover{
-    text-decoration: none;
-    border-bottom: solid 2px rgb(39, 161, 184);
+.social-network a:hover {
+	text-decoration: none;
+	border-bottom: solid 2px rgb(39, 161, 184);
 }
+
 
 /* Used in jumbotron in homepage */
+
 .rounded-transparent {
-    border-radius: 2em;
-    background-color: #ffffffa1;
+	border-radius: 2em;
+	background-color: #ffffffa1;
 }
 
 @media (min-height: 768px) {
-  #jumbotron-section {
-      margin-top: 7em !important;
-  }
+	#jumbotron-section {
+		margin-top: 7em !important;
+	}
 }
 
 #jumbotron-section {
-    margin-top: 4em;
+	margin-top: 4em;
 }
 
+
 /* About us page */
+
 @media (min-width: 768px) {
-    .showcase .showcase-text {
-        padding: 7rem;
-    }
+	.showcase .showcase-text {
+		padding: 7rem;
+	}
 }
 
 .showcase .showcase-text {
-    padding: 3rem;
+	padding: 3rem;
 }
 
 .showcase .showcase-img {
-    min-height: 30rem;
-    background-size: cover;
+	min-height: 30rem;
+	background-size: cover;
 }
 
 .about-us-background {
-    background-image: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(0, 0, 0, 0.35) 100%, rgba(0,0,0,0.5) 100%), url(../images/space_about_us.jpg);
-    width: 100%; 
-    background-size: cover;
+	background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.35) 100%, rgba(0, 0, 0, 0.5) 100%), url(../images/space_about_us.jpg);
+	width: 100%;
+	background-size: cover;
 }
 
 .text-color {
-    color: #cacccd !important;
+	color: #cacccd !important;
 }
+
 
 /* Contact us page */
+
 #contact-us-section {
-    background-image: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(0, 0, 0, 0.35) 100%, rgba(0,0,0,0.5) 100%), url(../images/space_contact_us.jpg);
-    width: 100%; 
-    background-size: cover;
+	background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.35) 100%, rgba(0, 0, 0, 0.5) 100%), url(../images/space_contact_us.jpg);
+	width: 100%;
+	background-size: cover;
 }
 
 
- /* Contact form referenced from https://codepen.io/csshint/pen/EQLwrM  */
+/* Contact form referenced from https://codepen.io/csshint/pen/EQLwrM  */
 
-.contact-form{
-  background-color:rgb(39, 161, 184); 
-  font-family: "Orbitron", sans-serif;
+.contact-form {
+	background-color: rgb(39, 161, 184);
+	font-family: "Orbitron", sans-serif;
 }
 
- .contact-form {
-        padding: 50px;
-        margin: 30px auto;
-        border-radius: 3em;
-    }	
-    .contact-form h1 {
-        font-size: 42px;
-        margin: 0 0 50px;
-        text-align: center;
-    }
-    .contact-form .form-group {
-        margin-bottom: 20px;
-    }
-    .contact-form .form-control, .contact-form .btn {
-        min-height: 38px;
-        border-radius: 2px;
-    }
-	.contact-form .form-control {
-		border-color: rgb(0, 0, 0);
-	}
-	
-    
-    .contact-form .btn-primary i {
-        margin-right: 5px;
-    }
-    .contact-form label {
-        opacity: 0.9;
-    }
-    .contact-form textarea {
-        resize: vertical;
-    }
-    .bs-example {
-    	margin: 20px;
-    }
+.contact-form {
+	padding: 50px;
+	margin: 30px auto;
+	border-radius: 3em;
+}
+
+.contact-form h1 {
+	font-size: 42px;
+	margin: 0 0 50px;
+	text-align: center;
+}
+
+.contact-form .form-group {
+	margin-bottom: 20px;
+}
+
+.contact-form .form-control,
+.contact-form .btn {
+	min-height: 38px;
+	border-radius: 2px;
+}
+
+.contact-form .form-control {
+	border-color: rgb(0, 0, 0);
+}
+
+.contact-form .btn-primary i {
+	margin-right: 5px;
+}
+
+.contact-form label {
+	opacity: 0.9;
+}
+
+.contact-form textarea {
+	resize: vertical;
+}
+
+.bs-example {
+	margin: 20px;
+}
 
 #contact-us-send-button {
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    border-radius: 1em;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	border-radius: 1em;
 }
 
 html.fa-events-icons-ready {
-    background-color: #343a40;
+	background-color: #343a40;
 }
 
+
 /* Gallery page */
+
 #gallery-section {
-    background-image: url(../images/space_gallery.jpg);
-    width: 100%; 
-    background-size: cover;
+	background-image: url(../images/space_gallery.jpg);
+	width: 100%;
+	background-size: cover;
 }
 
 .gallery-image {
-    width: 7rem;
-    border-radius: var(--border-radius);
+	width: 7rem;
+	border-radius: var(--border-radius);
 }
 
-.image-frame{
-  background-size: cover; 
-  background-repeat: no-repeat; 
-  height: 400px;
+.image-frame {
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 400px;
 }
 
- .zoom{
-        transition: transform .2s; 
-    }
+.zoom {
+	transition: transform .2s;
+}
 
 .zoom:hover {
-  transform: scale(1.05);
+	transform: scale(1.05);
 }
+
 
 /* Footer */
-.social-network{
-   text-align: center;
-   /* padding-left: 100px; */
+
+.social-network {
+	text-align: center;
+	/* padding-left: 100px; */
 }
-.social-network li{
-    display:inline;
+
+.social-network li {
+	display: inline;
 }
+
 
 /* Index page css */
-#hero-image{
-    background-image: url('../images/space.jpg');
-    height:100vh;
-    width:100%; 
-    background-size: cover;
+
+#hero-image {
+	background-image: url('../images/space.jpg');
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
 }
+
 
 /* About page */
-.about-content{
-  margin-top: 3em;
-  margin-bottom: 3em;
-  color: black;
-  letter-spacing: 2px;
-  line-height: 25px;
-}
-.about-content h1{
-    border-bottom: solid 2px rgb(39, 161, 184);
-    padding-bottom: 20px;
-    color: #cacccd;
+
+.about-content {
+	margin-top: 3em;
+	margin-bottom: 3em;
+	color: black;
+	letter-spacing: 2px;
+	line-height: 25px;
 }
 
+.about-content h1 {
+	border-bottom: solid 2px rgb(39, 161, 184);
+	padding-bottom: 20px;
+	color: #cacccd;
+}
 
-@media (min-width: 426px) { 
-    #home-footer-section {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        right: 0;
-    }
- }
+@media (min-width: 426px) {
+	#home-footer-section {
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
+}
