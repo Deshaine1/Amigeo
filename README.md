@@ -1,39 +1,31 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
 
-Welcome USER_NAME,
+User Centric Frontend Development Milestone Project
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+Introduction:
 
-## Gitpod Reminders
+Welcome to the artist, Amir´s website. He wanted a website where he could showcase his work, and also be contacted for art exhibitions or 
+to buy his art. 
+The home page is very simple, and just contains a navbar, and the artists´s pen name,  It also contains some non-functioning tabs as decoration 
+to show the themes the artist is interested in and uses as inspiration for his art. It also contains a footer, to threee social media platforms, 
+that is not actually existent. 
+On the about me page, is a picture of the artist himself, in a space suit. The other picture is his pen name signature along with his most sold
+piece of art, "Humanoid". It also tell a bit about the artist, and where he draws his ideas and inspiration from. 
+Then he has a gallery, where there are 9 pieces showcased. You have to click on the picture in order to see the full picture, seeing as they are 
+all different sizes. I think that worked nicely. 
+The contact page is very simple, but gives the user the opportunity to send a message to the artist, whether they would like to know about 
+upcoming exhibitions or if the person is interested in buying any of the art. 
+The font throughout the website is called Orbitron, which fits in very well with this space-theme. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Technologies used:
+Bootstrap is used for the bulk of the layout. 
+The font is by google fonts.
+The rocket on the button on the contact page is from Font Awesome. 
+The backround pictures are taken from google images. 
+The pictures in the galary are from the artist´ private collecion.
 
-`python3 -m http.server`
+/* Contact form referenced from https://codepen.io/csshint/pen/EQLwrM  */
 
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+Testing:
+Throughout this project I tested regularly. I saved and reloaded the page after every change I made. 
+I showed the website to the artist who was happy with the outcoome,altough would like to make some changes to it. But for the 
+purpose of my project, he was satisfied.

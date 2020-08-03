@@ -2,166 +2,8 @@ body {
   font-family: "Orbitron", sans-serif;
 }
 
-html{
-    background-color: silver;
-}
-
-.header-content{
-  width: 100%;
-  margin-top: 200px;
-  position: absolute;
- 
-}
-
-.logo{
-  text-align: center;
-  width: 200px;
-  color: rgb(243, 203, 215);
-  letter-spacing: 4px;
-  text-transform: uppercase;
-  margin-top: 200px;
-  margin: auto;
-  margin-bottom: 50px;
-  border-bottom: solid 1px rgb(221, 214, 214);
-  
-
-}
-
-
-#menu {
-  list-style-type: none;
-  text-transform: uppercase; 
-}
-
-#menu li {
-  float: left;
-  display: block;
-  padding-left: 180px;
-  padding-top: 100px;
-  font-size: 120%;
-}
-
-#menu a {
-  text-decoration: none;
-  color: black;
-}
-
-#menu a:hover {
-  border-bottom: 2px solid rgb(39, 161, 184);
-}
-
 .active {
   border-bottom: 2px solid rgb(39, 161, 184);
-}
-
-#hero-image{
-    background-image: url('../images/space.jpg');
-    height:100vh;
-    width:100%; 
-    background-size: cover;
-}
-    
-.h2-color-scheme {
-    color: rgb(192, 192, 192);
-    text-align: center;
-    font-size: 30px;
-    letter-spacing: 1px;
-    background-color: rgba(102, 83, 89, 0.7);
-    margin-bottom:0%;
-}
-
-  .cover-text{
-      font-size: 70%;
-      text-transform: uppercase;
-      color:rgb(51, 50, 50);
-      letter-spacing: 1px;
-      text-align:center;
-      margin-top:2px;
-  }
-
-  .nav-menu{
-      margin-top: 0px;
-    
-  }
-
-#gallery{
-    display:inline-flexbox;
-}
-
-p{
-    text-align:left;
-}
-
-.centered-parent{
-    display:flex;
-}
-
-.centered-child{
-    margin:0 auto;
-}
-
-.centered-parent h2{
- width: 78vw;
- padding: 0 3.vw;
-}
-
-.centered-parent h3{
-    width:78vw;
-    background-color:rgba(240, 140, 140, 0.7);
-    font-size: 24px;
-
-}
-
-.about-menu li{
-    padding-top:20px !important;
-}
-
-.about-content{
-  margin-top: 3em;
-  margin-bottom: 3em;
-  color: black;
-  letter-spacing: 2px;
-  line-height: 25px;
-}
-
-.about-content h1{
-    border-bottom: solid 2px rgb(39, 161, 184);
-    padding-bottom: 20px;
-    color: #cacccd;
-}
-
-.content{
-    display:flex;
-    flex-wrap: wrap;
-    color:grey;
-    width: 40%;
-}
-
-.content img{
-    width:50%;
-}
-
-.header{
-    height:120px;
-}
-
-.footer-col{
-height: 40px;
-}
-
-.footer-container{
-    height:20px;
-    background: silver; 
-    
-}
-
-.social-network{
-   text-align: center;
-   /* padding-left: 100px; */
-}
-
-.social-network li{
-    display:inline;
 }
 
 .social-network i{
@@ -177,53 +19,6 @@ height: 40px;
 .social-network a:hover{
     text-decoration: none;
     border-bottom: solid 2px rgb(39, 161, 184);
-}
-
-
-
-.container-about{
- height: 90vh;
- padding-bottom: 40px;
- background: rgba(233, 192, 192, 0.7);
- 
-}
-
-
-
-
-
-.image-frame{
-  background-size: cover; 
-  background-repeat: no-repeat; 
-  height: 400px;
-  
-}
-
-.image-name{
-    text-align: center;
-    color:rgba(247, 52, 52, 0.7);
-    text-decoration-line: underline;
-    
-}
-.container-gallery { 
-    height: 90vh;
-    background: rgba(233, 192, 192, 0.7);
-    border: solid 1px rgb(73, 196, 49);
- }
-
- .gallery-content{
-  margin-top: 100px;
-  margin-bottom:50px;
-  line-height: 25px;
-  height: 120vh;
- }
-
- .zoom{
-        transition: transform .2s; 
-    }
-
-.zoom:hover {
-  transform: scale(1.05);
 }
 
 /* Used in jumbotron in homepage */
@@ -276,22 +71,6 @@ height: 40px;
 }
 
 
-.container-contact{
-    height: 90vh;
-    float: left;
-    background: rgba(233, 192, 192, 0.7);
-    border: solid 1px rgb(73, 196, 49);
-
- }
- 
-.contact-content{
-  margin-top: 100px;
-  margin-bottom:5px;
-  color: black;
-  letter-spacing: 2px;
-  line-height: 25px;
-  
-}
  /* Contact form referenced from https://codepen.io/csshint/pen/EQLwrM  */
 
 .contact-form{
@@ -319,20 +98,8 @@ height: 40px;
 	.contact-form .form-control {
 		border-color: rgb(0, 0, 0);
 	}
-	.contact-form .form-control:focus {
-		border-color: rgba(233, 192, 192, 0.7);
-		box-shadow: 0 0 8px #d68282;
-	}
-    .contact-form .btn-primary {
-        min-width: 250px;
-        color:rgb(8, 8, 8);
-        background: rgba(252, 249, 249, 0.932);
-        margin-top: 20px;
-        border: none;
-    }
-    .contact-form .btn-primary:hover {
-        color: rgb(73, 196, 49); 
-    }
+	
+    
     .contact-form .btn-primary i {
         margin-right: 5px;
     }
@@ -369,3 +136,58 @@ html.fa-events-icons-ready {
     width: 7rem;
     border-radius: var(--border-radius);
 }
+
+.image-frame{
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  height: 400px;
+}
+
+ .zoom{
+        transition: transform .2s; 
+    }
+
+.zoom:hover {
+  transform: scale(1.05);
+}
+
+/* Footer */
+.social-network{
+   text-align: center;
+   /* padding-left: 100px; */
+}
+.social-network li{
+    display:inline;
+}
+
+/* Index page css */
+#hero-image{
+    background-image: url('../images/space.jpg');
+    height:100vh;
+    width:100%; 
+    background-size: cover;
+}
+
+/* About page */
+.about-content{
+  margin-top: 3em;
+  margin-bottom: 3em;
+  color: black;
+  letter-spacing: 2px;
+  line-height: 25px;
+}
+.about-content h1{
+    border-bottom: solid 2px rgb(39, 161, 184);
+    padding-bottom: 20px;
+    color: #cacccd;
+}
+
+
+@media (min-width: 426px) { 
+    #home-footer-section {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+ }
