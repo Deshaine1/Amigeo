@@ -2,17 +2,17 @@
 
 # Amigeo Website - User Centric Frontend Development Milestone Project
 
-[View the live project here.](https://)
+[View the live project here.](https://[https://8000-d4883bda-2df3-4806-8307-3d3afa5cab14.ws-eu01.gitpod.io/](https://8000-d4883bda-2df3-4806-8307-3d3afa5cab14.ws-eu01.gitpod.io/))
 
 This is the website for AMIGEO. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for people interested in his art or for people to read about and contact the artist. He wanted a website where he could showcase his work, and also be contacted for art exhibitions or to buy his art.
 
 A space inspired artist, using bold and beautiful colors inspired in turn by nebulas, now has a beautiful website that brings the space theme to centre focus, but without taking away from the art itself. The art images can be clicked on individually in order to view each on on a larger scale.
 
-## [](https://github.com/Code-Institute-Solutions/SampleREADME#)[![](https://camo.githubusercontent.com/e1bbe8553cac92e644521da2a03d118e10b5106a/68747470733a2f2f692e6962622e636f2f54597654587a312f4578616d706c652d43492e706e67)]()
+## [![]([https://d4883bda-2df3-4806-8307-3d3afa5cab14.ws-eu01.gitpod.io/#/workspace/Amigeo](https://d4883bda-2df3-4806-8307-3d3afa5cab14.ws-eu01.gitpod.io/#/workspace/Amigeo))]()
 
-## [](https://github.com/Code-Institute-Solutions/SampleREADME#user-experience-ux)User Experience (UX)
+## User Experience (UX)
 
--   ### [](https://github.com/Code-Institute-Solutions/SampleREADME#user-stories)User stories
+-   ### User stories
     
     -   #### First Time Visitor Goals
         
@@ -36,11 +36,8 @@ A space inspired artist, using bold and beautiful colors inspired in turn by neb
         
         -  This is an artists website, so images are the main reason for coming to this site. The space themed backgrounds are intended to be make you feel like you have arrived in space, which should catch the user's attention. It has clean lines, simple aesthetic. The images used on the website are all from google, and the art work images are from the artist himself.
 
-
-
 -   ### Wireframes
 
-    
     -   In my initial wireframe, I focused a bit more on using the art itself as background pictures, as well as using a frame on the home page. But
 after some guidance from my Code mentor, the background was changed to match the space theme, as they fit in so much better with the themeof the art. It also does not collide with the art itself, nor does it distract from it, but enhances it.
         
@@ -73,13 +70,13 @@ after some guidance from my Code mentor, the background was changed to match the
     -   Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 5.  [jQuery:](https://jquery.com/)
     -   jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
-6.  [Git](https://git-scm.com/)
+6.  [Git:](https://git-scm.com/)
     -   Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 7.  [GitHub:](https://github.com/)
     -   GitHub is used to store the projects code after being pushed from Git.
 8.  [Balsamiq:](https://balsamiq.com/)
-    -   Balsamiq was used to create the  [wireframes](https://github.com/)  during the design process.
-9. [StackEdit:](https://stackedit.com/)
+    -   Balsamiq was used to create the wireframes during the design process.
+9. [StackEdit:]([https://stackedit.io/app#](https://stackedit.io/app#))
 	- StackEdit was used to create the Markdown, using the Code Institute ReadMe example for learning purposes and guidance.  
 
 
@@ -93,8 +90,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Testing User Stories from User Experience (UX) Section
 
 -   #### First Time Visitor Goals
-    
-      
 
 1. As a First Time Visitor, I want the user to feel like they have just entered space as soon as they go on the home page.
 
@@ -112,8 +107,7 @@ or hover over the footer where three social media platforms are provided, to cho
 
 	3. You can click on the picture in order to see the full picture.
 
-  
-
+ 
 3. As a First Time Visitor, I want to be able to find a way to learn more about the artist and easily contact the artist directly.
 
 	1. On the about me page, is a picture of the artist himself, in a space suit. The other picture is his pen name signature along with his most sold piece of art, “Humanoid”. It also tells a bit about the artist, and where he draws his ideas and inspiration from.
@@ -139,7 +133,7 @@ or hover over the footer where three social media platforms are provided, to cho
 
 ## Deployment
 
-### [](https://github.com/Code-Institute-Solutions/SampleREADME#github-pages)GitHub Pages
+### GitHub Pages
 
 The project was deployed to GitHub Pages by following the steps on the Code Institute READme example and using the following steps...
 
@@ -151,7 +145,7 @@ The project was deployed to GitHub Pages by following the steps on the Code Inst
 5.  The page will automatically refresh.
 6.  Scroll back down through the page to locate the now published site  [link](https://github.com/)  in the "GitHub Pages" section.
 
-### [](https://github.com/Code-Institute-Solutions/SampleREADME#forking-the-github-repository)Forking the GitHub Repository
+### Forking the GitHub Repository
 
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
@@ -159,7 +153,7 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 2.  At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3.  You should now have a copy of the original repository in your GitHub account.
 
-### [](https://github.com/Code-Institute-Solutions/SampleREADME#making-a-local-clone)Making a Local Clone
+### Making a Local Clone
 
 1.  Log in to GitHub and locate the  [GitHub Repository](https://github.com/)
 2.  Under the repository name, click "Clone or download".
@@ -190,6 +184,8 @@ Click  [Here](https://help.github.com/en/github/creating-cloning-and-archiving-r
 ## Credits
 
 ### Code
+
+
     
 -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
     
@@ -197,7 +193,7 @@ Click  [Here](https://help.github.com/en/github/creating-cloning-and-archiving-r
 
 ### Content
 
-- All content was written by the developer.
+-   All content was written by the developer.
 - Contact form referenced from https://codepen.io/csshint/pen/EQLwrM 
     
 
@@ -205,13 +201,14 @@ Click  [Here](https://help.github.com/en/github/creating-cloning-and-archiving-r
 
 ### Media
 
--  All background images were sourced from Google.
+-   All background images were sourced from Google.
 -  All art images were provided by the artist Amir Grebo. 
 
 ### Acknowledgements
 
 
-- My Mentor Rueben Ferrante for continuous helpful feedback.
-- Tutor support at Code Institute for their support.
+-   My Mentor Rueben Ferrante for continuous helpful feedback.
+    
+-   Tutor support at Code Institute for their support.
 - The Code Institute README example.
 - Art Source: Amir Grebo
