@@ -2,13 +2,13 @@
 
 # Amigeo Website - User Centric Frontend Development Milestone Project
 
-[View the live project here.](https://[https://8000-d4883bda-2df3-4806-8307-3d3afa5cab14.ws-eu01.gitpod.io/](https://8000-d4883bda-2df3-4806-8307-3d3afa5cab14.ws-eu01.gitpod.io/))
+[View the live project here.](https://deshaine1.github.io/Amigeo/index.html)
 
 This is the website for AMIGEO. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for people interested in his art or for people to read about and contact the artist. He wanted a website where he could showcase his work, and also be contacted for art exhibitions or to buy his art.
 
 A space inspired artist, using bold and beautiful colors inspired in turn by nebulas, now has a beautiful website that brings the space theme to centre focus, but without taking away from the art itself. The art images can be clicked on individually in order to view each on on a larger scale.
 
-## [![]([https://d4883bda-2df3-4806-8307-3d3afa5cab14.ws-eu01.gitpod.io/#/workspace/Amigeo](https://d4883bda-2df3-4806-8307-3d3afa5cab14.ws-eu01.gitpod.io/#/workspace/Amigeo))]()
+
 
 ## User Experience (UX)
 
